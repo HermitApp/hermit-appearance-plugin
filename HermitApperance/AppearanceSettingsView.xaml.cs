@@ -18,9 +18,9 @@ namespace HermitAppearance
     /// <summary>
     /// Interaction logic for HermitStarterView.xaml
     /// </summary>
-    public partial class HermitStarterView : UserControl
+    public partial class AppearanceSettingsView : UserControl
     {
-        public HermitStarterView()
+        public AppearanceSettingsView()
         {
             InitializeComponent();
         }
