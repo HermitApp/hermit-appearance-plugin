@@ -38,9 +38,9 @@
     <Reference Include="Caliburn.Micro.Platform">
       <HintPath>..\packages\Caliburn.Micro.2.0.1\lib\net45\Caliburn.Micro.Platform.dll</HintPath>
     </Reference>
-    <Reference Include="Hermit.Plugin, Version=0.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Hermit.Plugin, Version=0.0.1.17, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Hermit.Plugin.0.0.1.0\lib\net45\Hermit.Plugin.dll</HintPath>
+      <HintPath>..\packages\Hermit.Plugin.0.0.1.17\lib\net45\Hermit.Plugin.dll</HintPath>
     </Reference>
     <Reference Include="MahApps.Metro">
       <HintPath>..\packages\MahApps.Metro.1.0.0.0\lib\net45\MahApps.Metro.dll</HintPath>
