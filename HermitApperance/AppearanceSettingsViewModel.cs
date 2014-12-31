@@ -14,8 +14,7 @@ namespace HermitAppearance
     /// <summary>
     /// 
     /// </summary>
-    [Export(typeof(IPlugin))]
-    public class AppearanceSettingsViewModel : SettingsItem
+    public class AppearanceSettingsViewModel : ISettingsItem
     {
         public AppearanceSettings Appearance { get; set; }
 
@@ -24,8 +23,6 @@ namespace HermitAppearance
         /// </summary>
         public AppearanceSettingsViewModel()
         {
-            this.DisplayName = "Appearance";
-
             Appearance = new AppearanceSettings();
 
             this.Appearance.AccentColors = ThemeManager.Accents
@@ -37,6 +34,9 @@ namespace HermitAppearance
                                            .ToList();
         }
 
-        
+        public string Name
+        {
+            get { return "Appearance"; }
+        }
     }
 }
